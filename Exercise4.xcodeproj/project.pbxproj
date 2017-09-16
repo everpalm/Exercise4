@@ -8,12 +8,16 @@
 
 /* Begin PBXFileReference section */
 		9A3A3D681F6D7EF500A3DD1B /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		9A3A3D691F6D81A900A3DD1B /* test_module.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = test_module.py; path = pack/test_module.py; sourceTree = "<group>"; };
+		9A3A3D6A1F6D821400A3DD1B /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = __init__.py; path = pack/__init__.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9A3A3D5D1F6D7E8E00A3DD1B = {
 			isa = PBXGroup;
 			children = (
+				9A3A3D6A1F6D821400A3DD1B /* __init__.py */,
+				9A3A3D691F6D81A900A3DD1B /* test_module.py */,
 				9A3A3D681F6D7EF500A3DD1B /* main.py */,
 			);
 			sourceTree = "<group>";

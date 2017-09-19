@@ -21,3 +21,11 @@ class Account:
 
     def __str__(self):
         return 'Account({0}, {1}, {2})'.format(self.name, self.number, self.balance)
+
+class CheckingAccount(Account):
+    def __init__(self, number, name):
+        self.number = number
+        self.name = name
+
+    def __str__(self):
+        return 'CheckingAccount({0}, {1})'.format(self.number, self.name)

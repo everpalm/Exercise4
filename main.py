@@ -19,6 +19,7 @@ check_acct = pack.test_module.CheckingAccount('Justin', '123-4567', 1100, 'Male'
 logger.debug('acct = {}'.format(acct))
 logger.debug('check_acct = {}'.format(check_acct))
 acct.deposit(500)
+#acct.deposit(-100)
 check_acct.deposit(100)
 logger.debug('acct = {}'.format(acct))
 logger.debug('check_acct = {}'.format(check_acct))

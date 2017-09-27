@@ -24,7 +24,10 @@ class Account:
             raise RuntimeError('balance not enough')
         self.balance -= amount
 
-    def get_balance(self):
+    #def get_balance(self):
+    #    return self.balance
+    @property
+    def balance(self):
         return self.balance
 
     def __str__(self):

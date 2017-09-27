@@ -35,7 +35,6 @@ class CheckingAccount(Account):
 
     def set_gendor(self, gender):
         self.gender = gender
-        #return 'gendor = {}'.format(self.gendor)
 
     def __str__(self):
         return 'CheckingAccount({0}, {1}, {2}, {3})'.format(self.name, self.number, self.balance, self.gender)

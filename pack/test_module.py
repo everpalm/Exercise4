@@ -24,9 +24,6 @@ class Account:
             raise RuntimeError('balance not enough')
         self.balance -= amount
 
-    def get_balance(self):
-        return self.balance
-
     def __str__(self):
         logger.debug("self.name = {}".format(self.name))
         return 'Account({0}, {1}, {2})'.format(self.name, self.number, self.balance)
@@ -38,7 +35,7 @@ class CheckingAccount(Account):
         self.number = number
         self.balance = balance
         self.gender = gender
-
+    
     def set_gendor(self, gender):
         self.gender = gender
 

@@ -3,10 +3,12 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+# This is for testing function
 def test_invoke(test_arg1, test_arg2):
     print('my wife is yelling at {}'.format(test_arg1))
     print('nothing is gonna change {}'.format(test_arg2))
 
+# This is for testing class
 class Account:
     def __init__(self, name, number, balance):
         self.name = name

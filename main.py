@@ -27,3 +27,5 @@ logger.debug('check_acct = {}'.format(check_acct))
 logger.debug("{0}'s balance = {1}".format(acct.name, acct.balance))
 check_acct.set_gendor('Female')
 logger.debug("check_acct = {}".format(check_acct))
+
+
